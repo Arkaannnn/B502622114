@@ -68,11 +68,24 @@ Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
 Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
-
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
+//nilai kuliah cowo
+Route::get('/nilaikuliah','App\Http\Controllers\nilaikuliahController@indexnilaikuliah');
+Route::get('/nilaikuliah/tambahdata','App\Http\Controllers\nilaikuliahController@tambahdata');
+Route::post('/nilaikuliah/storenilai','App\Http\Controllers\nilaikuliahController@storenilai');
 
+//nilai kuliah cewe
+Route::get('/keranjangbelanja','App\Http\Controllers\KBController@indexkeranjangbeli');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KBController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KBController@store');
+Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KBController@batal');
+
+//unggas
+Route::get('/unggas','App\Http\Controllers\unggasController@indexunggas');
+Route::get('/unggas/tambahunggas','App\Http\Controllers\unggasController@tambahunggas');
+Route::post('/unggas/storedata','App\Http\Controllers\unggasController@storedata');
 
 
 

@@ -21,7 +21,7 @@
             </div>
 
             <div class = "col-md-6">
-                <table class = "table table-hover">
+                <table class = "table table-hover table-borderless">
                     <tr>
                         <th> Nama </th>
                         <td> {{ $pegawai->pegawai_nama }} </td>

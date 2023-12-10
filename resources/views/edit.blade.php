@@ -24,19 +24,18 @@
 	<form action="/pegawai/update" method="post" class="form-horizontal">
 		{{ csrf_field() }}
 		<input type="hidden" name="id" value="{{ $p->pegawai_id }}">
-
         <div class="form-group row">
             <label for="name" class="col-xl-1 col-form-label mr-2">Nama</label>
             <div class="col-xs-9">
             <input type="text" required="required" name="nama" value="{{ $p->pegawai_nama }}">
             </div>
-            </div>
+        </div>
         <div class="form-group row">
             <label for="jabatan" class="col-xl-1 col-form-label mr-2">Jabatan</label>
             <div class="col-xs-9">
             <input type="text" required="required" name="jabatan" value="{{ $p->pegawai_jabatan }}">
             </div>
-         </div>
+        </div>
         <div class="form-group row">
             <label for="umur" class="col-xl-1 col-form-label mr-2">Umur</label>
             <div class="col-xs-9">

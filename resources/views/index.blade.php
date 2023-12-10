@@ -10,7 +10,7 @@
 
 @section('konten')
 
-	<h2>www.malasngoding.com</h2>
+	<h2>PWEB-B Arkaan Hilmi Suharsoyo - 140</h2>
 	<h3>Data Pegawai</h3>
 
 	<a href="/pegawai/tambah" class="btn btn-primary"> + Tambah Pegawai Baru</a>
@@ -38,7 +38,7 @@
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
 			<td>
-                <a href="/pegawai/view/{{ $p->pegawai_id }}" class= "btn btn-primary"> view</a>
+                <a href="/pegawai/view/{{ $p->pegawai_id }}" class= "btn btn-info"> view</a>
                 |
 				<a href="/pegawai/edit/{{ $p->pegawai_id }}" class= "btn btn-warning"> Edit</a>
 				|
