@@ -87,5 +87,8 @@ Route::get('/unggas','App\Http\Controllers\unggasController@indexunggas');
 Route::get('/unggas/tambahunggas','App\Http\Controllers\unggasController@tambahunggas');
 Route::post('/unggas/storedata','App\Http\Controllers\unggasController@storedata');
 
+//chat
+Route::get('/chat','App\Http\Controllers\kodesoalAAController@indexAA');
+
 
 

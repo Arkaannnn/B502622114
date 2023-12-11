@@ -38,6 +38,7 @@
         <a class="dropdown-item" href="tugas1">TUGAS 1</a>
         <a class="dropdown-item" href="tugasweb">TUGAS 2</a>
         <a class="dropdown-item" href="/">ETS</a>
+        <a class="dropdown-item" href="/chat">CHAT</a>
 
 
       </div>
