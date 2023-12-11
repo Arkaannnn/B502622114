@@ -24,7 +24,7 @@
       <a class="nav-link" href="/nilaikuliah">Nilai Kuliah</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="/CHAT">CHAT</a>
+        <a class="nav-link" href="/ chat">CHAT</a>
       </li>
 
     <!-- Dropdown -->
